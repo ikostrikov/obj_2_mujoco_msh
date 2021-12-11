@@ -22,7 +22,7 @@ if __name__ == "__main__":
             assert len(arr) == 4
             v.append([float(arr[i]) for i in range(1, 4)])
         elif arr[0] == 'vt':
-            assert len(arr) == 4
+            assert len(arr) == 4 or len(arr) == 3
             vt.append([float(arr[i]) for i in range(1, 3)])
         elif arr[0] == 'vn':
             assert len(arr) == 4
