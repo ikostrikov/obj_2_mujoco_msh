@@ -48,12 +48,12 @@ if __name__ == "__main__":
                 vt_idx = int(j[1]) - 1
                 output_vt.append(vt[vt_idx])
             except:
-                pass
+                output_vt.append([0.0, 0.0])
             try:
                 vn_idx = int(j[2]) - 1
                 output_vn.append(vn[vn_idx])
             except:
-                pass
+                output_vn.append([0.0, 0.0, 0.0])
         output_f.append(
             [len(output_v) - 3,
              len(output_v) - 2,
